@@ -5,18 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Welcome to Green Lake Pickleball.  This will be the site where you can find all related resources for pickleball at Green Lake!</h1>
+        <p>More details to come.</p>
       </header>
     </div>
   );
