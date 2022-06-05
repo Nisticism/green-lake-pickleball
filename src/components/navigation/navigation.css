@@ -1,0 +1,120 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1rem;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-links-logo {
+  margin-right: 2rem;
+}
+
+.navbar-links-logo img {
+  width: 62.56px;
+  height: 16.02px;
+}
+
+.navbar-links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: -webkit-fill-available;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 750px;
+}
+
+.navbar-links-container p, 
+.navbar-menu-container p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.nav-item {
+  padding: 10px 15px;
+}
+
+.nav-item:hover {
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 3% 25%, rgb(4, 10, 62) 0%, rgb(8, 62, 120) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgb(4, 10, 62) 0%, rgb(8, 62, 120) 100%);
+  
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgb(4, 10, 62) 0%, rgb(8, 62, 120) 100%);
+  
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgb(4, 10, 62) 0%,  rgb(8, 62, 120) 100%);
+  
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgb(4, 10, 62) 0%,  rgb(8, 62, 120) 100%);
+
+    border-radius: 10px;
+}
+
+.navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+.navbar-menu svg {
+  cursor: pointer;
+}
+
+.navbar-menu-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  text-align: left;
+  background-color: var(--color-footer);
+  padding: 1rem 1.5rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 10px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-menu-container p {
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-links-container {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: flex;
+  }
+
+  .nav-item {
+    min-width: 150px;
+    display: block;
+  }
+
+  .navbar-menu-container p {
+    margin: 0;
+  }
+}
