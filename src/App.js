@@ -1,18 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
-import { FooterItem, Navigation, Article } from './components';
-import { Footer, Header, News } from './containers';
+import { Navigation, Home, FAQ, Courts, Photos, About, Webcam, NotFound  } from './components';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <div className="gradient-background">
-        <Navigation />
-        {/* <Header /> */}
+    <Router>
+      <div className="App">
+        <div className="nav-background">
+          <Navigation />
+          {/* <Header /> */}
+        </div>
+        <div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/courts" element={<Courts />} />
+            <Route path="/photos" element={<Photos />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/webcam" element={<Webcam />} />
+            <Route path="/*" element={<NotFound />} />
+          </Routes>
+        </div>
+        {/* <Footer /> */}
       </div>
-      <News />
-      {/* <Footer /> */}
-    </div>
+    </Router>
   );
 }
 

@@ -1,73 +1,63 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 1rem;
-}
-
-p {
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-
-.navbar-links {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.navbar-links-logo {
-  margin-right: 2rem;
-}
-
-.navbar-links-logo img {
-  width: 62.56px;
-  height: 16.02px;
+  background: var(--nav-background);
+  height: 65px;
 }
 
 .navbar-links-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: -webkit-fill-available;
   margin-left: 20px;
   margin-right: 20px;
-  max-width: 750px;
+  width: 60%;
+  min-width: 450px;
 }
 
-.navbar-links-container p, 
-.navbar-menu-container p {
-  color: #fff;
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: capitalize;
-  cursor: pointer;
+.center-fill {
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-item {
-  padding: 10px 15px;
+  color: #999d9e;
+  font-weight: 700;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item-home {
+  color: #999d9e;
+  font-weight: 700;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item-div {
+  overflow: hidden;
+  line-height: 65px;
+  height: 65px;
+  white-space: pre;
+}
+
+.nav-home {
+  overflow: hidden;
+  line-height: 65px;
+  height: 65px;
+  white-space: pre;
+  min-width: 80px;
 }
 
 .nav-item:hover {
-    /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 3% 25%, rgb(4, 10, 62) 0%, rgb(8, 62, 120) 100%);
+  background: rgb(56, 56, 56);
+}
 
-    /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 3% 25%, rgb(4, 10, 62) 0%, rgb(8, 62, 120) 100%);
-  
-    /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 3% 25%, rgb(4, 10, 62) 0%, rgb(8, 62, 120) 100%);
-  
-    /* ie 10+ */
-    background:-ms-radial-gradient(circle at 3% 25%, rgb(4, 10, 62) 0%,  rgb(8, 62, 120) 100%);
-  
-    /* global 92%+ browsers support */
-    background:radial-gradient(circle at 3% 25%, rgb(4, 10, 62) 0%,  rgb(8, 62, 120) 100%);
-
-    border-radius: 10px;
+.nav-item-home:hover {
+  background: rgb(56, 56, 56);
 }
 
 .navbar-menu {

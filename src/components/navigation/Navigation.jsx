@@ -1,24 +1,25 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import { Link } from 'react-router-dom';
 import './navigation.css';
 
 const Menu = () => (
   <>
-    <p>
-      <a className="nav-item" href="#home">Home</a>
-    </p>
-    <p>
-      <a className="nav-item" href="#faq">FAQ</a>
-    </p>
-    <p>
-      <a className="nav-item" href="#funding">Funding</a>
-    </p>
-    <p>
-      <a className="nav-item" href="#contact">Contact</a>
-    </p>
-    <p>
-      <a className="nav-item" href="#court-cam">Court Cam</a>
-    </p>
+    <div className="nav-item-div">
+      <Link className="nav-item" to="/courts">The Courts</Link>
+    </div>
+    <div className="nav-item-div">
+      <Link className="nav-item" to="/faq">FAQ</Link>
+    </div>
+    <div className="nav-item-div">
+       <Link className="nav-item" to="/webcam">Web Cam</Link>
+    </div>
+    <div className="nav-item-div">
+      <Link className="nav-item" to="/photos">Photos</Link>
+    </div>
+    <div className="nav-item-div">
+      <Link className="nav-item" to="/about">About</Link>
+    </div>
   </>
 )
 
@@ -26,10 +27,11 @@ const Navigation = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div class="navbar" id="navbar">
-      <div className="navbar-links">
-        <div className="navbar-links-logo">
-        </div>
+    <div className="navbar" id="navbar">
+      <div className="nav-home">
+          <Link className="nav-item-home" to="/home">Home</Link>
+      </div>
+      <div className="center-fill">
         <div className="navbar-links-container">
           <Menu />
         </div>
