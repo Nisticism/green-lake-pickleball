@@ -1,6 +1,10 @@
 ### In order to update/change the site:
 
-1.)  Make sure to be on the master branch, then run `npm run deploy`. 
+In general, just run `npm run deploy`.
+
+But if you're having problems, try this:
+
+1.)  Make sure to be on the master branch.
 2.)  Run `npm run deploy`
 3.)  Make sure the gh-pages branch has been updated.
 4.)  While in the repository, go to settings, then pages, make sure it's set to the gh-pages branch
