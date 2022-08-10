@@ -5,7 +5,7 @@ import './photos.css';
 
 function Photos() {
   return (
-    <div>
+    <div className="text-align">
       <img src={ header } className="header" alt="GLP Header" id="header"/>
       <h1>Photos</h1>
     </div>

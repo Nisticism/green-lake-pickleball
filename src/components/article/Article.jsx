@@ -3,7 +3,7 @@ import './article.css'
 
 const Article = () => {
   return (
-    <div>Article</div>
+    <div className="text-align">Article</div>
   )
 }
 

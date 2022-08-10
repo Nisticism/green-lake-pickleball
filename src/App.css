@@ -98,3 +98,11 @@ a {
 .link-text:hover {
   color: var(--link-text-light);
 }
+
+hr {
+  width: 70%;
+  border: 1px solid var(--dark-blue-text);
+  background: var(--dark-blue-text);
+  margin: auto;
+  border-radius: 1px;
+}

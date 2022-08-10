@@ -4,9 +4,9 @@ import './notfound.css'
 
 class NotFound extends Component {
   render () {
-    return <div>
+    return <div className="text-align">
       <h1>Sorry, we couldn't find a page here!</h1>
-      <Link to="/">Back to home</Link>
+      <Link className="link-text" to="/">Back to home</Link>
     </div>
   }
 }

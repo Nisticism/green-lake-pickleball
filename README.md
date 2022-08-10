@@ -1,3 +1,14 @@
+### In order to update/change the site:
+
+1.)  Make sure to be on the master branch, then run `npm run deploy`. 
+2.)  Run `npm run deploy`
+3.)  Make sure the gh-pages branch has been updated.
+4.)  While in the repository, go to settings, then pages, make sure it's set to the gh-pages branch
+5.)  Make sure the url is greenlakepickleball.
+6.)  Make sure there is a CNAME file.
+7.)  Check the actions tab.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

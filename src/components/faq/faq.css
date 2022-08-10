@@ -10,16 +10,6 @@
   color:rgb(18, 50, 90);
 }
 
-.answer {
-  color: rgb(18, 101, 48);
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.news {
-  margin: 2rem 4rem;
-}
-
 #venmo {
   margin-top: 30px;
   max-height: 164px;
@@ -31,4 +21,16 @@
 
 .venmo-container {
   display: flex;
+}
+
+.heading {
+  color: var(--dark-blue-text);
+}
+
+.faqs {
+  margin: 3% 10%;
+}
+
+.text-align {
+  text-align: center;
 }

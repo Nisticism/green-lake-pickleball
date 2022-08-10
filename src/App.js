@@ -1,10 +1,11 @@
 import './App.css';
 import { Navigation, Home, FAQ, Courts, Photos, About, Webcam, NotFound  } from './components';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { history } from "./helpers/history";
 
 function App() {
   return (
-    <Router>
+    <Router history={ history }>
       <div className="App">
         <div className="nav-background">
           <Navigation />
