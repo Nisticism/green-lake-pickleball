@@ -2,14 +2,16 @@
 
 :root {
   --font-family: 'Manrope', sans-serif;
-  --color-background: #bbf0bb;
-  --nav-background: #000;
+  --color-background: #bef9be;
+  --nav-background: #082c51;
   --color-footer : #031B34;
   --color-blog: #042c54;
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
-  --dark-blue-text: #03376c;
-  --link-text: #176bbf;
-  --link-text-light: #6ba5de;
+  --dark-blue-text: #09325a;
+  --link-text: #145da7;
+  --link-text-light: #508fcd;
   --light-gray: #9fb4ca;
+  --navigation: #999d9e;
+  --navigation-focus: #9bc23b;
 }

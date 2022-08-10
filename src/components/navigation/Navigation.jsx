@@ -6,19 +6,19 @@ import './navigation.css';
 const Menu = () => (
   <>
     <div className="nav-item-div">
-      <Link className="nav-item" to="/courts">The Courts</Link>
+      <Link className="nav-item nav-item-color" to="/courts">The Courts</Link>
     </div>
     <div className="nav-item-div">
-      <Link className="nav-item" to="/faq">FAQ</Link>
+      <Link className="nav-item nav-item-color" to="/faq">FAQ</Link>
     </div>
     <div className="nav-item-div">
-       <Link className="nav-item" to="/webcam">Web Cam</Link>
+       <Link className="nav-item nav-item-color" to="/webcam">Webcam</Link>
     </div>
     <div className="nav-item-div">
-      <Link className="nav-item" to="/photos">Photos</Link>
+      <Link className="nav-item nav-item-color" to="/photos">Photos</Link>
     </div>
     <div className="nav-item-div">
-      <Link className="nav-item" to="/about">About</Link>
+      <Link className="nav-item nav-item-color" to="/about">About</Link>
     </div>
   </>
 )
@@ -29,7 +29,7 @@ const Navigation = () => {
   return (
     <div className="navbar" id="navbar">
       <div className="nav-home">
-          <Link className="nav-item-home" to="/home">Home</Link>
+          <Link className="nav-item-home nav-item-color" to="/home">Home</Link>
       </div>
       <div className="center-fill">
         <div className="navbar-links-container">
@@ -38,8 +38,8 @@ const Navigation = () => {
       </div>
       <div className="navbar-menu">
         { toggleMenu 
-          ? <RiCloseLine color="fff" size={27} onClick={() => setToggleMenu(false)} />
-          : <RiMenu3Line color="fff" size={27} onClick={() => setToggleMenu(true)} />
+          ? <RiCloseLine size={27} onClick={() => setToggleMenu(false)} />
+          : <RiMenu3Line size={27} onClick={() => setToggleMenu(true)} />
         }
         { toggleMenu && (
           <div className="navbar-menu-container scale-up-center">

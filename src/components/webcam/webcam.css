@@ -2,4 +2,6 @@
   color: var(--dark-blue-text);
   margin: 5% 20%;
   white-space: pre-wrap;
+  font-size: 18px;
+  font-weight: 500;
 }

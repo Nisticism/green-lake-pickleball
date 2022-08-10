@@ -106,3 +106,9 @@ hr {
   margin: auto;
   border-radius: 1px;
 }
+
+.subtitle, h1, h2 {
+  color: var(--dark-blue-text);
+  padding: 10px;
+  margin-top: 1rem;
+}

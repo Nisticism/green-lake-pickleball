@@ -20,7 +20,7 @@ const FAQ = () => {
   return (
     <div>
       <div className="text-align">
-        <h1 className="heading">Frequently Asked Questions</h1>
+        <h2 className="heading">Frequently Asked Questions</h2>
         <hr />
       </div>
       <div className="faqs">
