@@ -5,7 +5,7 @@ import { history } from "./helpers/history";
 
 function App() {
   return (
-    <Router history={ history } basename="/green-lake-pickleball">
+    <Router history={ history }>
       <div className="App">
         <div className="nav-background">
           <Navigation />
