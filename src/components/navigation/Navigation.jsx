@@ -1,39 +1,47 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './navigation.css';
 
-const Menu = () => (
+
+function getNavClasses(path, route) {
+  return(
+    ["nav-item", `${path === route ? "nav-item-color-focus" : "nav-item-color"}`].join(" ")
+  );
+}
+
+const Menu = (props) => (
   <>
     <div className="nav-item-div">
-      <Link className="nav-item nav-item-color" to="/courts">The Courts</Link>
+      <Link className={getNavClasses("/courts", props.location.pathname)} to="/courts">The Courts</Link>
     </div>
     <div className="nav-item-div">
-      <Link className="nav-item nav-item-color" to="/faq">FAQ</Link>
+      <Link className={getNavClasses("/faq", props.location.pathname)} to="/faq">FAQ</Link>
     </div>
     <div className="nav-item-div">
-       <Link className="nav-item nav-item-color" to="/webcam">Webcam</Link>
+       <Link className={getNavClasses("/webcam", props.location.pathname)} to="/webcam">Webcam</Link>
     </div>
     <div className="nav-item-div">
-      <Link className="nav-item nav-item-color" to="/photos">Photos</Link>
+      <Link className={getNavClasses("/photos", props.location.pathname)} to="/photos">Photos</Link>
     </div>
     <div className="nav-item-div">
-      <Link className="nav-item nav-item-color" to="/about">About</Link>
+      <Link className={getNavClasses("/about", props.location.pathname)} to="/about">About</Link>
     </div>
   </>
 )
 
 const Navigation = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const location = useLocation();
 
   return (
     <div className="navbar" id="navbar">
       <div className="nav-home">
-          <Link className="nav-item-home nav-item-color" to="/home">Home</Link>
+          <Link className={getNavClasses("/home", location.pathname)} to="/home">Home</Link>
       </div>
       <div className="center-fill">
         <div className="navbar-links-container">
-          <Menu />
+          <Menu location={location}/>
         </div>
       </div>
       <div className="navbar-menu">

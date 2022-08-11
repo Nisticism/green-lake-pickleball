@@ -11,6 +11,7 @@ function FAQQuestionAnswer({ questionAnswerData }) {
   const toggleExpand = () => {
     setExpand(!isExpanded);
   };
+
   // function getChangeClass(change) {
   //   let icon = (change ? styles['increase'] : styles['decrease']);
   //   return icon;
