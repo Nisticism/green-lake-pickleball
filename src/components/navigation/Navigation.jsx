@@ -52,7 +52,7 @@ const Navigation = () => {
         { toggleMenu && (
           <div className="navbar-menu-container scale-up-center">
             <div className="navbar-menu-container-links">
-              <Menu />
+              <Menu location={location}/>
             </div>
           </div>
         )}
