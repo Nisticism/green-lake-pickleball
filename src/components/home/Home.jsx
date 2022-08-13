@@ -22,11 +22,22 @@ class Home extends Component {
         the meantime, check back every now and then and enjoy fun play at Green Lake.</span>
       </div>
       <hr className="home-hr" />
-      <a id="join-glp"></a>
-      <h2 className="text-align">Join GLP</h2>
+      <div className="home-section text-align">
+        <a id="join-glp"></a>
+        <h2 className="text-align">Join GLP</h2>
+        <span className="home-text">Request to join the <a href="https://groups.google.com/g/green-lake-pickleball" target="_blank" rel="noreferrer">google group</a>!</span>
+        <span className="home-text">Join the email list <a href="https://docs.google.com/forms/d/e/1FAIpQLSciQ7da1QXeJlkST6LtHWL_58kwBOsn-9llTsDyM4Rsrjt0jg/viewform" target="_blank" rel="noreferrer">here</a>.</span>
+      </div>
       <hr className="home-hr" />
-      <a id="player-donations"></a>
-      <h2 className="text-align">Funding</h2>
+      <div className="home-section text-align">
+        <a id="player-donations"></a>
+        <h2 className="text-align">Funding</h2>
+        <span className="home-text">Peter's venmo account can be found <a href="https://account.venmo.com/u/Green_Lake_Pickleball">here</a>.  A direct donation link can be found <a href="https://account.venmo.com/pay?recipients=Green_Lake_Pickleball" target="_blank" rel="noreferrer">here</a>.</span>
+        <span className="home-text">Scan the image below with your phone to bring up venmo:</span>
+        <span>
+          <img className="" src={ process.env.PUBLIC_URL + "/faqs/venmo.png" } alt={ "Peter Seitel's venmo" }></img>
+        </span>
+      </div>
     </div>
   }
 }

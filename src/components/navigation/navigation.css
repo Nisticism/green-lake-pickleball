@@ -60,11 +60,11 @@
 }
 
 .nav-item:hover {
-  background: rgb(92, 92, 92);
+  background: var(--navigation-hover);
 }
 
 .nav-item-home:hover {
-  background: rgb(92, 92, 92);
+  background: var(--navigation-hover);
 }
 
 .navbar-menu {
