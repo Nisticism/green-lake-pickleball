@@ -75,8 +75,8 @@
 
 .navbar-menu svg {
   cursor: pointer;
+  margin-right: 15px;
   color: var(--navigation);
-  margin-right: 25px;
 }
 
 .navbar-menu-container {

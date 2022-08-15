@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="text-align">
       <img src={ header } className="header" alt="GLP Header" id="header"/>
-      <h1>About</h1>
+      <h2>About</h2>
     </div>
   )
 }

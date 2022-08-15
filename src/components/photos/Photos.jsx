@@ -7,7 +7,7 @@ function Photos() {
   return (
     <div className="text-align">
       <img src={ header } className="header" alt="GLP Header" id="header"/>
-      <h1>Photos</h1>
+      <h2>Photos</h2>
     </div>
   )
 }
