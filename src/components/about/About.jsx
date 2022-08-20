@@ -40,7 +40,7 @@ function About() {
           </ul>
         </span>
       </div>
-      <hr className="about-hr" />
+      {/* <hr className="about-hr" /> */}
     </div>
   )
 }

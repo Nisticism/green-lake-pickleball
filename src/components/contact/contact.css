@@ -46,7 +46,7 @@ textarea {
 }
 
 .btn:hover {
-  background: var(--link-text);
+  background: var(--scrollbar-background);
   cursor: pointer;
   transition: 0.1s;
 }

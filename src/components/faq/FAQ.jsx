@@ -11,7 +11,7 @@ const FAQ = () => {
     url: "https://docs.google.com/forms/d/e/1FAIpQLSciQ7da1QXeJlkST6LtHWL_58kwBOsn-9llTsDyM4Rsrjt0jg/viewform", urlText: "this form"},
     {id: 5, question: "How can I contact GLP?", answer: "Feel free to email Peter at ", 
     url: "https://greenlakepickleball.com/contact", urlText: "this page", url2: "mailto: pseitel@seitelsystems.com", url3: "mailto: pickle.karate.pickle@gmail.com", secondText: " or Dave at ",
-    url2Text: "pseitel@seitelsystems.com", url3Text: "pickle.karate.pickle@gmail.com", thirdText: ".  For more information, please visit "},
+    url2Text: "pseitel@seitelsystems.com", url3Text: "pickle.karate.pickle@gmail.com", thirdText: ", or send a direct message from "},
     {id: 6, question: "How can I donate to GLP?", answer: "You may donate to Peter Seitel's venmo!  The link for that is right ", url2: "https://account.venmo.com/pay?recipients=Green_Lake_Pickleball",
     url2Text: "here", secondText: ".  Also, feel free to scan the image below!", image: "venmo.png", imageAlt: "Peter Seitel Venmo"},
     {id: 7, question: "What are donations collected for?", answer: "We use donations so that we can:",
