@@ -5,11 +5,11 @@ import './about.css';
 function About() {
   return (
     <div className="text-align">
-      <h2 className="about-section-heading">History</h2>
-      {/* <div className="about-section">
+      {/* <h2 className="about-section-heading">History</h2>
+      <div className="about-section">
 
-      </div> */}
-      <hr className="about-hr"/>
+      </div>
+      <hr className="about-hr"/> */}
       {/* <h2 className="about-section-heading">Advocacy</h2>
       <div className="about-section">
 

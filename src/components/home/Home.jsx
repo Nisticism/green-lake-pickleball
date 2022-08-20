@@ -25,13 +25,15 @@ class Home extends Component {
       <div className="home-section text-align">
         <span id="join-glp"></span>
         <h2 className="text-align">Join GLP</h2>
+        <span className="home-text">Join the Green Lake Pickleball <a href="https://docs.google.com/forms/d/e/1FAIpQLSciQ7da1QXeJlkST6LtHWL_58kwBOsn-9llTsDyM4Rsrjt0jg/viewform" target="_blank" rel="noreferrer">email list</a>!  You’ll get a weekly(ish) update of what is going on at the courts and how our communal money pot is 
+        doing.  We use Google Groups to manage the list and will not provide your email address to any other parties.</span>
         <span className="home-text">Request to join the <a href="https://groups.google.com/g/green-lake-pickleball" target="_blank" rel="noreferrer">google group</a>!</span>
-        <span className="home-text">Join the email list <a href="https://docs.google.com/forms/d/e/1FAIpQLSciQ7da1QXeJlkST6LtHWL_58kwBOsn-9llTsDyM4Rsrjt0jg/viewform" target="_blank" rel="noreferrer">here</a>.</span>
       </div>
       <hr className="home-hr" />
       <div className="home-section text-align">
         <span id="player-donations"></span>
         <h2 className="text-align">Funding</h2>
+        <span className="home-text">Green Lake Pickleball welcomes your financial support!  Donations (not tax deductible) go towards court reservations and equipment purchases.</span>
         <span className="home-text">Peter's venmo account can be found <a href="https://account.venmo.com/u/Green_Lake_Pickleball">here</a>.  A direct donation link can be found <a href="https://account.venmo.com/pay?recipients=Green_Lake_Pickleball" target="_blank" rel="noreferrer">here</a>.</span>
         <span className="home-text">Scan the image below with your phone to bring up venmo:</span>
         <span>
