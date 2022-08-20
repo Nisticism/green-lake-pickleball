@@ -1,5 +1,5 @@
 import './App.css';
-import { Navigation, Home, FAQ, Courts, Photos, About, Webcam, NotFound  } from './components';
+import { Navigation, Home, FAQ, Courts, Photos, About, Webcam, Contact, NotFound  } from './components';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { history } from "./helpers/history";
 
@@ -20,6 +20,7 @@ function App() {
             <Route path="/photos" element={<Photos />} />
             <Route path="/about" element={<About />} />
             <Route path="/webcam" element={<Webcam />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/*" element={<NotFound />} />
           </Routes>
         </div>

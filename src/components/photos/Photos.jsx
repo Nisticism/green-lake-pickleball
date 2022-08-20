@@ -1,13 +1,16 @@
 import React from 'react'
-import header from '../../assets/header.png';
+import paddleStacks from '../../assets/paddle_stacks.png';
 import './photos.css';
 
 
 function Photos() {
   return (
     <div className="text-align">
-      <img src={ header } className="header" alt="GLP Header" id="header"/>
-      <h2>Photos</h2>
+      <div className="photos">
+        <img src={ paddleStacks } className="photo" alt="paddle stacks" />
+        <span className="caption">Sometimes when it gets very crowded, there are many paddle stacks on the side of the court.</span>
+        <hr />
+      </div>
     </div>
   )
 }

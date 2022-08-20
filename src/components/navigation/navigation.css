@@ -9,8 +9,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-left: 20px;
-  margin-right: 80px;
+  margin-left: 0px;
+  margin-right: 100px;
   width: 58%;
   min-width: 450px;
 }
@@ -56,7 +56,11 @@
   line-height: 65px;
   height: 65px;
   white-space: pre;
-  min-width: 80px;
+  min-width: 100px;
+}
+
+.nav-home .nav-item {
+  justify-content: center;
 }
 
 .nav-item:hover {
@@ -75,7 +79,7 @@
 
 .navbar-menu svg {
   cursor: pointer;
-  margin-right: 15px;
+  margin-right: 19px;
   color: var(--navigation);
 }
 
@@ -84,11 +88,11 @@
   justify-content: flex-end;
   flex-direction: column;
   text-align: left;
-  background-color: var(--color-footer);
+  background-color: var(--nav-background);
   padding: 1rem 1.5rem;
   position: absolute;
   top: 35px;
-  right: 25px;
+  right: 6px;
   margin-top: 1rem;
   min-width: 210px;
   border-radius: 10px;
@@ -111,6 +115,11 @@
   .nav-item {
     min-width: 150px;
     display: block;
+  }
+
+  .nav-home .nav-item {
+    display: flex;
+    min-width: 100px;
   }
 
   .navbar-menu-container p {

@@ -23,20 +23,27 @@ class Home extends Component {
       </div>
       <hr className="home-hr" />
       <div className="home-section text-align">
-        <a id="join-glp"></a>
+        <span id="join-glp"></span>
         <h2 className="text-align">Join GLP</h2>
         <span className="home-text">Request to join the <a href="https://groups.google.com/g/green-lake-pickleball" target="_blank" rel="noreferrer">google group</a>!</span>
         <span className="home-text">Join the email list <a href="https://docs.google.com/forms/d/e/1FAIpQLSciQ7da1QXeJlkST6LtHWL_58kwBOsn-9llTsDyM4Rsrjt0jg/viewform" target="_blank" rel="noreferrer">here</a>.</span>
       </div>
       <hr className="home-hr" />
       <div className="home-section text-align">
-        <a id="player-donations"></a>
+        <span id="player-donations"></span>
         <h2 className="text-align">Funding</h2>
         <span className="home-text">Peter's venmo account can be found <a href="https://account.venmo.com/u/Green_Lake_Pickleball">here</a>.  A direct donation link can be found <a href="https://account.venmo.com/pay?recipients=Green_Lake_Pickleball" target="_blank" rel="noreferrer">here</a>.</span>
         <span className="home-text">Scan the image below with your phone to bring up venmo:</span>
         <span>
           <img className="" src={ process.env.PUBLIC_URL + "/faqs/venmo.png" } alt={ "Peter Seitel's venmo" }></img>
         </span>
+      </div>
+      <hr className="home-hr" />
+      <h2 className="text-align">Webcam</h2>
+      <div className="home-section text-align">
+        <span className="home-text">In the future, we will be able to embed our own webcam to live stream the courts at Green Lake on its own page!  For 
+        now, feel free to check out <a className="link-text" target="_blank" rel="noreferrer" href="https://video.nest.com/live/cR0gr79KLZ">this stream</a>, 
+        from the Green Lake boathouse.  At least from here, it's possible to see the weather as it will be on the courts!</span>
       </div>
     </div>
   }

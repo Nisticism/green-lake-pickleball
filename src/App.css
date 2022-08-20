@@ -53,9 +53,55 @@
 
 
 body {
-  background: var(--color-background);
-  overflow: overlay;
+  background: var(--background-color);
+  /* overflow: overlay; */
+  /* make header image minimum height instead of overlay */
+  overflow-y: scroll;
+  /* must use this to avoid navigation items moving around when going to pages with different heights */
 }
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-background)
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-color);
+  border-radius: 5px;
+  border: 2px solid var(--scrollbar-background);
+}
+
+
+::-webkit-scrollbar-button:single-button {
+  background-color: var(--scrollbar-background);
+  display: block;
+  border-style: solid;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 12px;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0px 7px 7px 7px;
+  border-color: transparent transparent var(--scrollbar-color) transparent;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent var(--lighter-gray) transparent;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  border-width: 7px 7px 0 7px;
+  border-color: var(--scrollbar-color) transparent transparent transparent;
+}
+
+::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+  border-color: var(--lighter-gray) transparent transparent transparent;
+}
+
 
 a {
   color: unset;
@@ -101,13 +147,20 @@ a {
 
 hr {
   width: 70%;
-  border: 1px solid var(--dark-blue-text);
+  border: 1px solid var(--lighter-gray);
   background: var(--dark-blue-text);
   margin: auto;
   border-radius: 1px;
 }
 
-.subtitle, h1, h2 {
+.subtitle, h1, h2, h3, h4 {
   color: var(--dark-blue-text);
+}
+
+.subtitle, h1, h2 {
   padding: 15px 10px;
+}
+
+h3, h4 {
+  padding: 10px 5px;
 }

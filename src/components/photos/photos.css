@@ -1,0 +1,16 @@
+.photo {
+  width: 50%;
+}
+
+.photos {
+  margin-top: 5%;
+}
+
+.caption {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 2%;
+  font-size: 15px;
+  font-weight: 500;
+}

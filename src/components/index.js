@@ -7,4 +7,5 @@ export { default as Courts } from './courts/Courts';
 export { default as About } from './about/About';
 export { default as Webcam } from './webcam/Webcam';
 export { default as Photos } from './photos/Photos';
+export { default as Contact } from './contact/Contact';
 export { default as NotFound } from './notfound/NotFound';

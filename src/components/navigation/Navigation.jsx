@@ -18,9 +18,9 @@ const Menu = (props) => (
     <div className="nav-item-div">
       <Link className={getNavClasses("/faq", props.location.pathname)} to="/faq">FAQ</Link>
     </div>
-    <div className="nav-item-div">
+    {/* <div className="nav-item-div">
        <Link className={getNavClasses("/webcam", props.location.pathname)} to="/webcam">Webcam</Link>
-    </div>
+    </div> */}
     <div className="nav-item-div">
       <Link className={getNavClasses("/photos", props.location.pathname)} to="/photos">Photos</Link>
     </div>
