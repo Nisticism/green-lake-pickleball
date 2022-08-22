@@ -7,7 +7,7 @@ function Contact() {
     <div className="text-align">
       <h2>Contact</h2>
       <div className="container">
-        <form target="_blank" action="https://formsubmit.co/pseitel@seitelsystems.com" method="POST">
+        <form target="_blank" action="https://formsubmit.co/bd19ac8720828921667ec60511768252" method="POST">
           <div className="form-group">
             <input type="text" name="name" className="form-control" placeholder="Full Name" required />
             <input type="email" name="email" className="form-control" placeholder="Email Address" required />

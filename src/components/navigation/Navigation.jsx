@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import { Link, useLocation } from 'react-router-dom';
 import './navigation.css';
@@ -30,9 +30,26 @@ const Menu = (props) => (
   </>
 )
 
+function useCloseWhenClickedOutside(ref, setToggleMenu) {
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (ref.current && !ref.current.contains(event.target)) {
+        setToggleMenu(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+  })
+}
+
 const Navigation = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const location = useLocation();
+
+  const closeWhenClickedOutsideRef = useRef(null);
+  useCloseWhenClickedOutside(closeWhenClickedOutsideRef, setToggleMenu);
 
   return (
     <div className="navbar" id="navbar">
@@ -44,7 +61,7 @@ const Navigation = () => {
           <Menu location={location}/>
         </div>
       </div>
-      <div className="navbar-menu">
+      <div className="navbar-menu" ref={ closeWhenClickedOutsideRef }>
         { toggleMenu 
           ? <RiCloseLine size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line size={27} onClick={() => setToggleMenu(true)} />
