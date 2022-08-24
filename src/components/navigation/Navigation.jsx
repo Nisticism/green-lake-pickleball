@@ -13,19 +13,19 @@ function getNavClasses(path, route) {
 const Menu = (props) => (
   <>
     <div className="nav-item-div">
-      <Link className={getNavClasses("/courts", props.location.pathname)} to="/courts">The Courts</Link>
+      <Link className={getNavClasses("/courts", props.location.pathname)} to="/courts" onClick={() => props.setToggleMenu ? props.setToggleMenu(false) : false}>The Courts</Link>
     </div>
     <div className="nav-item-div">
-      <Link className={getNavClasses("/faq", props.location.pathname)} to="/faq">FAQ</Link>
+      <Link className={getNavClasses("/faq", props.location.pathname)} to="/faq" onClick={() => props.setToggleMenu ? props.setToggleMenu(false) : false}>FAQ</Link>
     </div>
     {/* <div className="nav-item-div">
        <Link className={getNavClasses("/webcam", props.location.pathname)} to="/webcam">Webcam</Link>
     </div> */}
     <div className="nav-item-div">
-      <Link className={getNavClasses("/photos", props.location.pathname)} to="/photos">Photos</Link>
+      <Link className={getNavClasses("/photos", props.location.pathname)} to="/photos" onClick={() => props.setToggleMenu ? props.setToggleMenu(false) : false}>Photos</Link>
     </div>
     <div className="nav-item-div">
-      <Link className={getNavClasses("/about", props.location.pathname)} to="/about">About</Link>
+      <Link className={getNavClasses("/about", props.location.pathname)} to="/about" onClick={() => props.setToggleMenu ? props.setToggleMenu(false) : false}>About</Link>
     </div>
   </>
 )
@@ -69,7 +69,7 @@ const Navigation = () => {
         { toggleMenu && (
           <div className="navbar-menu-container scale-up-center">
             <div className="navbar-menu-container-links">
-              <Menu location={location}/>
+              <Menu location={location} setToggleMenu={setToggleMenu}/>
             </div>
           </div>
         )}

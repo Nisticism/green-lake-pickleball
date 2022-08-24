@@ -49,8 +49,20 @@ class Home extends Component {
       </div>
       <hr className="home-hr" />
       <div className="home-section text-align">
-      <h2 className="text-align">Contact</h2>
+        <h2 className="text-align">Contact</h2>
         <span className="home-text">In order to contact us, please send a message through <Link className="link-text" to="/contact" target="_blank" rel="noreferrer">this page</Link>.</span>
+      </div>
+      <hr className="home-hr" />
+      <div className="home-section text-align">
+        <h2 className="text-align">News</h2>
+        <span className="home-text">Green Lake pickleball occasionally makes the news!  In August of 2022, a <a href="https://www.nytimes.com/2022/08/16/sports/tennis/pickleball-tennis-court.html" target="_blank" rel="noreferrer">
+          New York Times article</a> came out featuring pickleball at Green Lake.</span>
+      </div>
+      <hr className="home-hr" />
+      <div className="home-section text-align">
+        <h2 className="text-align">Competition</h2>
+        <span className="home-text">Some of the more competitive players here compete seek out nearby tournaments.  <a href="https://www.pickleballtournaments.com/pbt_tlisting.pl?when=F&selstate=WA&selsanctioning=&selnettype=&openregonly=false&ssipaFilter=false&aauFilter=false" 
+        target="_blank" rel="noreferrer">Here</a> is a link to future tournaments in Washington.</span>
       </div>
     </div>
   }
