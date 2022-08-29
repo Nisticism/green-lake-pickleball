@@ -21,9 +21,18 @@
 }
 
 .faqs {
-  margin: 3% 10%;
+  margin: 2% 20%;
+  background-color: var(--background-color-shade);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .text-align {
   text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .faqs {
+    margin: 2% 10%;
+  }
 }

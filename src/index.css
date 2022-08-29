@@ -3,10 +3,11 @@
 :root {
   --font-family: 'Manrope', sans-serif;
   --background-color: #e2ffda;
+  --background-color-shade: #c7ebbe;
   --nav-background: #082c51;
   --dark-blue-text: #09325a;
   --link-text: #1163b5;
-  --link-text-light: #508fcd;
+  --link-text-light: #6398cd;
   --light-gray: #9fb4ca;
   --lighter-gray: #cbd6e3;
   --navigation: #b3c5c9;

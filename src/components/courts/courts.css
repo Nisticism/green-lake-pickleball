@@ -1,0 +1,12 @@
+.courts {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.courts-paragraph {
+  margin-bottom: 24px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+}

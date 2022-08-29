@@ -22,3 +22,19 @@
 .home-section-heading {
   margin: 0px 10%;
 }
+
+.nyt-article-screen {
+  width: 80%;
+  margin: auto;
+  border-radius: 3rem;
+  box-shadow: 5px 5px 5px var(--nav-background);
+  margin-bottom: 20px;
+  border: 1px solid var(--scrollbar-color);
+}
+
+.nyt-article-screen:hover {
+  border: 1px solid var(--scrollbar-background);
+  filter: sepia(100%) saturate(200%) brightness(95%) hue-rotate(140deg);
+  cursor: pointer;
+  transition: 0.25s;
+}

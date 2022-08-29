@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { Header } from '../../components';
+import nyt_article_screen from '../../assets/nyt_article_screen.png';
 import './home.css';
 
 class Home extends Component {
+
+  openInNewTab(url) {
+    window.open(url, '_blank', 'noreferrer');
+  }
+
   render () {
     return <div>
       <Header />
@@ -45,7 +51,7 @@ class Home extends Component {
         <h2 className="text-align">Webcam</h2>
         <span className="home-text">In the future, we will be able to embed our own webcam to live stream the courts at Green Lake on its own page!  For 
         now, feel free to check out <a className="link-text" target="_blank" rel="noreferrer" href="https://video.nest.com/live/cR0gr79KLZ">this stream</a>, 
-        from the Green Lake boathouse.  At least from here, it's possible to see the weather as it will be on the courts!</span>
+        from the Green Lake boathouse, or visit an <Link className="link-text" target="_blank" rel="noreferrer" to="/webcam">embedded version here</Link>.  At least from here, it's possible to see the weather as it will be on the courts!</span>
       </div>
       <hr className="home-hr" />
       <div className="home-section text-align">
@@ -57,6 +63,8 @@ class Home extends Component {
         <h2 className="text-align">News</h2>
         <span className="home-text">Green Lake pickleball occasionally makes the news!  In August of 2022, a <a href="https://www.nytimes.com/2022/08/16/sports/tennis/pickleball-tennis-court.html" target="_blank" rel="noreferrer">
           New York Times article</a> came out featuring pickleball at Green Lake.</span>
+        <img className="nyt-article-screen" src={nyt_article_screen} alt="New York Times article on picklebal at Green Lake" 
+        onClick={() => this.openInNewTab("https://www.nytimes.com/2022/08/16/sports/tennis/pickleball-tennis-court.html")}/>
       </div>
       <hr className="home-hr" />
       <div className="home-section text-align">
