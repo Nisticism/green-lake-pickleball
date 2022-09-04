@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.7237ff66.css",
-    "main.js": "/static/js/main.23bd862a.js",
+    "main.css": "/static/css/main.4f21cc9b.css",
+    "main.js": "/static/js/main.88753292.js",
     "static/js/787.740105b8.chunk.js": "/static/js/787.740105b8.chunk.js",
     "static/media/paddle_stacks.png": "/static/media/paddle_stacks.73b12b7e28f50e5278a2.png",
     "static/media/header.png": "/static/media/header.354de37d90b141093452.png",
     "static/media/nyt_article_screen.png": "/static/media/nyt_article_screen.b263b45650a4292654bf.png",
     "index.html": "/index.html",
-    "main.7237ff66.css.map": "/static/css/main.7237ff66.css.map",
-    "main.23bd862a.js.map": "/static/js/main.23bd862a.js.map",
+    "main.4f21cc9b.css.map": "/static/css/main.4f21cc9b.css.map",
+    "main.88753292.js.map": "/static/js/main.88753292.js.map",
     "787.740105b8.chunk.js.map": "/static/js/787.740105b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7237ff66.css",
-    "static/js/main.23bd862a.js"
+    "static/css/main.4f21cc9b.css",
+    "static/js/main.88753292.js"
   ]
 }
