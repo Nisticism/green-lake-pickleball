@@ -147,10 +147,11 @@ a {
 
 hr {
   width: 70%;
-  border: 1px solid var(--lighter-gray);
-  background: var(--dark-blue-text);
+  border: 1px solid var(--light-gray);
+  background: var(--light-gray);
   margin: auto;
   border-radius: 1px;
+  height: 2px;
 }
 
 .subtitle, h1, h2, h3, h4 {
@@ -163,4 +164,8 @@ hr {
 
 h3, h4 {
   padding: 10px 5px;
+}
+
+.content {
+  min-height: 85vh;
 }

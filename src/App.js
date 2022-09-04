@@ -1,5 +1,5 @@
 import './App.css';
-import { Navigation, Home, FAQ, Courts, Photos, About, Webcam, Contact, NotFound  } from './components';
+import { Navigation, Home, FAQ, Courts, Photos, About, Webcam, Contact, Footer, NotFound  } from './components';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { history } from "./helpers/history";
 
@@ -11,7 +11,7 @@ function App() {
           <Navigation />
           {/* <Header /> */}
         </div>
-        <div>
+        <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
@@ -24,7 +24,7 @@ function App() {
             <Route path="/*" element={<NotFound />} />
           </Routes>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );

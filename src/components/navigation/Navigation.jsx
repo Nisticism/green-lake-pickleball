@@ -10,6 +10,12 @@ function getNavClasses(path, route) {
   );
 }
 
+function getNavClassesHome(path, route) {
+  return(
+    `${path === route ? "nav-item-color-focus" : "nav-item-color"}`
+  );
+}
+
 const Menu = (props) => (
   <>
     <div className="nav-item-div">
@@ -53,8 +59,8 @@ const Navigation = () => {
 
   return (
     <div className="navbar" id="navbar">
-      <div className="nav-home">
-          <Link className={getNavClasses("/home", location.pathname)} to="/home">Home</Link>
+      <div className="nav-home-div">
+          <Link className={[getNavClassesHome("/home", location.pathname), "nav-home"].join(" ")} to="/home">Home</Link>
       </div>
       <div className="center-fill">
         <div className="navbar-links-container">

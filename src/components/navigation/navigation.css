@@ -2,7 +2,9 @@
   display: flex;
   align-items: center;
   background: var(--nav-background);
-  height: 65px;
+  height: 8vh;
+  min-height: 60px;
+  max-height: 80px;
 }
 
 .navbar-links-container {
@@ -26,6 +28,10 @@
   padding: 0px 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 8vh;
+  min-height: 60px;
+  max-height: 80px;
 }
 
 .nav-item-color {
@@ -36,27 +42,39 @@
   color: var(--navigation-focus);
 }
 
-.nav-item-home {
-  color: var(--navigation);
+.nav-home {
   font-weight: 700;
-  padding: 0px 15px;
+  padding: 0px 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 8vh;
+  min-height: 60px;
+  max-height: 80px;
+  min-width: 100px;
 }
 
 .nav-item-div {
   overflow: hidden;
-  line-height: 65px;
-  height: 65px;
+  line-height: 8vh;
+  height: 8vh;
   white-space: pre;
+  min-height: 60px;
+  max-height: 80px;
+  display: flex;
+  align-items: center;
 }
 
-.nav-home {
+.nav-home-div {
   overflow: hidden;
-  line-height: 65px;
-  height: 65px;
+  line-height: 8vh;
+  height: 8vh;
   white-space: pre;
   min-width: 100px;
+  min-height: 60px;
+  max-height: 80px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-home .nav-item {
@@ -67,7 +85,7 @@
   background: var(--navigation-hover);
 }
 
-.nav-item-home:hover {
+.nav-home:hover {
   background: var(--navigation-hover);
 }
 
@@ -92,8 +110,8 @@
   padding: 15px;
   position: absolute;
   top: 35px;
-  right: 6px;
-  margin-top: 1rem;
+  right: max(8px, 1vh);
+  margin-top: max(16px, 2.5vh);
   min-width: 210px;
   border-radius: 10px;
   box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
@@ -113,15 +131,16 @@
   }
 
   .nav-item {
-    min-width: 150px;
-    display: block;
+    min-width: -webkit-fill-available;
     border-radius: 5px;
+    justify-content: start;
+    height: 60px;
+    padding: 0px 20px;
+    align-items: center;
   }
 
-  .nav-home .nav-item {
-    display: flex;
-    min-width: 100px;
-    border-radius: 0px;
+  .nav-item-div {
+    height: 60px;
   }
 
   .navbar-menu-container p {

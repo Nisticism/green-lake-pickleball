@@ -1,4 +1,4 @@
-export { default as FooterItem } from './footer/FooterItem';
+export { default as Footer } from './footer/Footer';
 export { default as Navigation } from './navigation/Navigation';
 export { default as FAQ } from './faq/FAQ'; 
 export { default as Home } from './home/Home';

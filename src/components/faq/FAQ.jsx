@@ -1,6 +1,7 @@
 import React from 'react'
 import './faq.css'
 import QuestionAnswer from '../faq_question_answer/FAQQuestionAnswer';
+import { Link } from 'react-router-dom';
 
 const FAQ = () => {
 
@@ -22,6 +23,9 @@ const FAQ = () => {
     <div>
       <div className="text-align">
         <h2 className="heading">Frequently Asked Questions</h2>
+        <div className="faq-descript-container">
+          <span className="faq-descript">Still have a question?  <Link to="/contact" target="_blank" rel="noreferrer">Contact us here</Link>.</span>
+        </div>
         <hr />
       </div>
       <div className="faqs">

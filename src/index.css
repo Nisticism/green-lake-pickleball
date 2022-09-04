@@ -4,15 +4,17 @@
   --font-family: 'Manrope', sans-serif;
   --background-color: #e2ffda;
   --background-color-shade: #c7ebbe;
+  --background-color-shade-outline: #8da787;
   --nav-background: #082c51;
   --dark-blue-text: #09325a;
   --link-text: #1163b5;
   --link-text-light: #6398cd;
+  --footer-link-text-light: #73afea;
   --light-gray: #9fb4ca;
   --lighter-gray: #cbd6e3;
   --navigation: #b3c5c9;
   --navigation-hover: #5b6567;
-  --navigation-focus: #9bc23b;
+  --navigation-focus: #d1ef2e;
   --scrollbar-color: #6cacd4;
   --scrollbar-background: #285c94;
 }
