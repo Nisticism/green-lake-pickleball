@@ -12,9 +12,8 @@
   flex-direction: row;
   justify-content: space-around;
   margin-left: 0px;
-  margin-right: 100px;
-  width: 50%;
-  min-width: 450px;
+  padding-right: 100px;
+  min-width: 50vw;
 }
 
 .center-fill {
