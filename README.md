@@ -1,3 +1,7 @@
+### View the public project at:
+
+`https://www.greenlakepickleball.com`
+
 ### In order to update/change the site:
 
 In general, just run `npm run deploy`.
