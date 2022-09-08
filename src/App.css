@@ -27,6 +27,10 @@
   }
 }
 
+.scale-up-center {
+  transition-duration: 0.1s;
+}
+
 @media screen and (max-width: 700px) {
   .section-padding {
     padding: 4rem;
@@ -46,8 +50,6 @@
     padding: 4rem 2rem;
   }
 }
-
-
 
 
 body {
@@ -157,8 +159,8 @@ a {
 }
 
 .scale-up-center {
-	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	-webkit-animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .link-text {
