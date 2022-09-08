@@ -171,11 +171,11 @@ a {
 
 hr {
   width: 70%;
-  border: 1px solid var(--light-gray);
+  border: 0.5px solid var(--light-gray);
   background: var(--light-gray);
   margin: auto;
   border-radius: 1px;
-  height: 2px;
+  height: 1px;
 }
 
 .subtitle, h1, h2, h3, h4 {

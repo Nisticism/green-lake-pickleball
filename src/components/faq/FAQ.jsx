@@ -26,7 +26,7 @@ const FAQ = () => {
         <div className="faq-descript-container">
           <span className="faq-descript">Still have a question?  <Link to="/contact" target="_blank" rel="noreferrer">Contact us here</Link>.</span>
         </div>
-        <hr />
+        {/* <hr /> */}
       </div>
       <div className="faqs">
         { faqs.map((QA) => {

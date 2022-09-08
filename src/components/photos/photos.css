@@ -9,8 +9,13 @@
 .caption {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 2%;
+  margin: 10px auto 20px auto;
+  width: 50%;
   font-size: 15px;
+  line-height: 24px;
   font-weight: 500;
+}
+
+.photos hr {
+  margin-bottom: 25px;
 }

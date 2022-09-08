@@ -70,3 +70,17 @@
     margin: auto;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding: 15px 0px;
+  }
+
+  .column-wrapper {
+    padding: 0px 5px;
+  }
+
+  .links-column {
+    padding: 5px 10px 5px 15px;
+  }
+}
