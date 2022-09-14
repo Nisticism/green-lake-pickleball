@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b92a98f5.css",
-    "main.js": "/static/js/main.78cf4656.js",
+    "main.js": "/static/js/main.08894365.js",
     "static/js/787.740105b8.chunk.js": "/static/js/787.740105b8.chunk.js",
     "static/media/paddle_stacks.png": "/static/media/paddle_stacks.73b12b7e28f50e5278a2.png",
     "static/media/cloudy_green_lake.jpg": "/static/media/cloudy_green_lake.b17efbd969f7126b006f.jpg",
@@ -9,11 +9,11 @@
     "static/media/nyt_article_screen.png": "/static/media/nyt_article_screen.b263b45650a4292654bf.png",
     "index.html": "/index.html",
     "main.b92a98f5.css.map": "/static/css/main.b92a98f5.css.map",
-    "main.78cf4656.js.map": "/static/js/main.78cf4656.js.map",
+    "main.08894365.js.map": "/static/js/main.08894365.js.map",
     "787.740105b8.chunk.js.map": "/static/js/787.740105b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b92a98f5.css",
-    "static/js/main.78cf4656.js"
+    "static/js/main.08894365.js"
   ]
 }
