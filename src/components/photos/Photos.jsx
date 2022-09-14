@@ -12,7 +12,7 @@ function Photos() {
         <span className="caption">Sometimes when it gets very crowded, there are many paddle stacks on the side of the court.</span>
         <hr />
         <img src={ cloudyGL } className="photo" alt="cloudy green lake" />
-        <span className="caption">Green Lake courts on a cloudy weekend afternoon, a few days after powerwashing.</span>
+        <span className="caption">Green Lake courts on a cloudy weekend afternoon, a few days after pressure washing.</span>
       </div>
     </div>
   )

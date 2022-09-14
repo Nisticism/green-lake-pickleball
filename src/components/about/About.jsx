@@ -41,7 +41,7 @@ function About() {
         </span>
         <h4>This site</h4>
         <span className="about-text">        This site is a collaboration between various members of the Green Lake pickleball community.  Hans coded and created the site, which is hosted on 
-        his <a href="https://www.github.com/nisticism/green-lake-pickleball" target="_blank" rel="noreferrer">github</a>.  Peter and Dave provided content for the site, included text and some 
+        his <a href="https://www.github.com/nisticism/green-lake-pickleball" target="_blank" rel="noreferrer">github</a>.  Peter and Dave provided content for the site, including text and some 
         design decisions.  Eric made some UI sketches.  Tux created the pickleball logo artwork, which can also be seen on posters around Green Lake.</span>
       </div>
       {/* <hr className="about-hr" /> */}

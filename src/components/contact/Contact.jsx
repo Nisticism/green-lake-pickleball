@@ -19,7 +19,7 @@ function Contact() {
         </form>
       </div>
       <div className="contact-descript-container">
-        <span className="contact-descript">If you're looking for emails, Peter's is <a href="mailto: pseitel@pseitelsystems.com">pseitel@seitelsystems.com</a> and Dave's 
+        <span className="contact-descript">Looking for emails?  Peter's is <a href="mailto: pseitel@pseitelsystems.com">pseitel@seitelsystems.com</a> and Dave's 
         is <a href="mailto: pickle.karate.pickle@gmail.com">pickle.karate.pickle@gmail.com</a>.</span>
       </div>
     </div>
