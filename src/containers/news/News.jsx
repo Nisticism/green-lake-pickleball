@@ -55,7 +55,7 @@ const News = () => {
         Questions?
       </p>
       <p className="answer">
-        Contact <a className="inline-link" href = "mailto: pseitel@seitelsystems.com">Peter</a> (pseitel@seitelsystems.com) 
+        Contact <a className="inline-link" href = "mailto: peter@sla.com">Peter</a> (peter@sla.com) 
         or <a className="inline-link" href = "mailto: pickle.karate.pickle@gmail.com">Dave</a> (pickle.karate.pickle@gmail.com).
       </p>
     </div>

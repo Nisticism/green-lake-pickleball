@@ -84,7 +84,7 @@ const Footer = () => {
                   <Link className="footer-link" to="/contact">Contact form</Link>
                 </li>
                 <li>
-                  <a className="footer-link" href="mailto:pseitel@seitelsystems.com" target="_blank" rel="noreferrer">pseitel@seitelsystems.com</a>
+                  <a className="footer-link" href="mailto:peter@sla.com" target="_blank" rel="noreferrer">peter@sla.com</a>
                 </li>
                 <li>
                   <a className="footer-link" href="mailto:pickle.karate.pickle@gmail.com" target="_blank" rel="noreferrer">pickle.karate.pickle@gmail.com</a>
