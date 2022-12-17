@@ -4,13 +4,13 @@ let albumData = {
     title: "Miscellaneous",
     alts: 
       ["Paddle stacks at Green Lake", 
-      "Green Lake East pickleball courts on a cloudy day"],
+      "Green Lake East pickleball courts on a cloudy day", "test"],
     captions: 
       ["Sometimes when it gets very crowded, there are many paddle stacks on the side of the court.",
-      "Green Lake courts on a cloudy weekend afternoon, a few days after pressure washing."], 
+      "Green Lake courts on a cloudy weekend afternoon, a few days after pressure washing.", "test"], 
     photos: 
       ['/images/misc/paddle_stacks.png', 
-      '/images/misc/cloudy_green_lake.jpg']},
+      '/images/misc/cloudy_green_lake.jpg', '/images/misc/IMG_0029.jpg']},
   albumDataNYT: {
     title: "New York Times Photos",
     alts: 
