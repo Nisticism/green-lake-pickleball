@@ -10,7 +10,7 @@ let albumData = {
       "Green Lake courts on a cloudy weekend afternoon, a few days after pressure washing.", "test"], 
     photos: 
       ['/images/misc/paddle_stacks.png', 
-      '/images/misc/cloudy_green_lake.jpg', '/images/misc/IMG_0029.jpg']},
+      '/images/misc/cloudy_green_lake.jpg', '/images/misc/nyt_paddle_stacks_1.jpg']},
   albumDataNYT: {
     title: "New York Times Photos",
     alts: 
@@ -39,7 +39,7 @@ let albumData = {
       "", "", "", "",
       "", ""], 
     photos: 
-      ['/images/misc/cloudy_green_lake.jpg', '/images/misc/IMG_0029.jpg', '/images/nyt/IMG_0030.jpg', '/images/nyt/IMG_0031.jpg',
+      ['/images/misc/cloudy_green_lake.jpg', '/images/misc/nyt_paddle_stacks_1.jpg', '/images/nyt/IMG_0030.jpg', '/images/nyt/IMG_0031.jpg',
       '/images/nyt/IMG_0032.jpg', '/images/nyt/IMG_0033.jpg', '/images/nyt/IMG_0034.jpg', '/images/nyt/IMG_0035.jpg',
       '/images/nyt/IMG_0036.jpg', '/images/nyt/IMG_0037.jpg', '/images/nyt/IMG_0038.jpg', '/images/nyt/IMG_0039.jpg',
       '/images/nyt/IMG_0040.jpg', '/images/nyt/IMG_0041.jpg', '/images/nyt/IMG_0042.jpg', '/images/nyt/IMG_0043.jpg',
