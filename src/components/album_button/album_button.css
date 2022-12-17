@@ -1,0 +1,26 @@
+.album-button-pic {
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.album-button-pic:hover {
+  opacity: 80%;
+}
+
+.album-button {
+  cursor: pointer;
+}
+
+.album-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: var(--dark-blue-text);
+  font-weight: 600;
+}
+
+.album-button-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}

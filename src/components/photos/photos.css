@@ -3,19 +3,39 @@
 }
 
 .photos {
-  margin-top: 5%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .caption {
   display: flex;
   justify-content: center;
   margin: 10px auto 20px auto;
-  width: 50%;
+  max-width: 350px;
   font-size: 15px;
   line-height: 24px;
   font-weight: 500;
+  color: var(--dark-blue-text);
 }
 
 .photos hr {
   margin-bottom: 25px;
+}
+
+.album-titles {
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 800;
+  color: var(--dark-blue-text);
+}
+
+.photos-wrapper {
+  margin: 10px;
+}
+
+.hr-photos {
+  margin: 10px;
 }

@@ -1,7 +1,8 @@
 import './App.css';
-import { Navigation, Home, FAQ, Courts, Photos, About, Webcam, Contact, Footer, NotFound  } from './components';
+import { Navigation, Home, FAQ, Courts, Photos, About, Webcam, Contact, Footer, NotFound, Album  } from './components';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { history } from "./helpers/history";
+import albumData from "./helpers/albumData";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/webcam" element={<Webcam />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/photos/misc" element={<Album albumData={albumData.albumDataMisc} />} />
+            <Route path="/photos/nyt" element={<Album albumData={albumData.albumDataNYT}/>} />
             <Route path="/*" element={<NotFound />} />
           </Routes>
         </div>

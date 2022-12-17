@@ -8,4 +8,6 @@ export { default as About } from './about/About';
 export { default as Webcam } from './webcam/Webcam';
 export { default as Photos } from './photos/Photos';
 export { default as Contact } from './contact/Contact';
+export { default as Album } from './album/Album';
+export { default as AlbumButton } from './album_button/AlbumButton';
 export { default as NotFound } from './notfound/NotFound';

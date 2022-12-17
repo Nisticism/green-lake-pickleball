@@ -1,18 +1,25 @@
 import React from 'react'
-import paddleStacks from '../../assets/paddle_stacks.png';
-import cloudyGL from '../../assets/cloudy_green_lake.jpg';
+import { AlbumButton } from '../../components';
 import './photos.css';
 
-
 function Photos() {
+  const ButtonData = {
+    misc: 
+    {title: "Miscellaneous", url: "/photos/misc", src: "images/misc/paddle_stacks.png"},
+    nyt: 
+    {title: "New York Times Photos", url: "/photos/nyt", src: "images/nyt/IMG_0028.jpg"}
+  }
   return (
-    <div className="text-align">
+    <div className="text-align photos-wrapper">
+      <div>
+        <span className="album-titles">Albums</span>
+      </div>
+      <div className="hr-photos">
+        <hr/>
+      </div>
       <div className="photos">
-        <img src={ paddleStacks } className="photo" alt="paddle stacks" />
-        <span className="caption">Sometimes when it gets very crowded, there are many paddle stacks on the side of the court.</span>
-        <hr />
-        <img src={ cloudyGL } className="photo" alt="cloudy green lake" />
-        <span className="caption">Green Lake courts on a cloudy weekend afternoon, a few days after pressure washing.</span>
+        <AlbumButton buttonData={ButtonData.misc}/>
+        <AlbumButton buttonData={ButtonData.nyt}/>
       </div>
     </div>
   )

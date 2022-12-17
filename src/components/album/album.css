@@ -1,0 +1,37 @@
+.album-photo {
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+.no-photos {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.album {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.album-photo-divider {
+  padding: 15px;
+}
+
+.album-title-header {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--dark-blue-text);
+  margin-bottom: 10px;
+}
+
+.album-caption {
+  width: 100%;
+  margin: 5px;
+  font-weight: 500;
+  font-size: 16px;
+}
