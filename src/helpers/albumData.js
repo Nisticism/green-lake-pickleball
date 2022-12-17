@@ -14,21 +14,21 @@ let albumData = {
   albumDataNYT: {
     title: "New York Times Photos",
     alts: 
-      ["Photo from GL East courts, Seattle - NY Times and Alan Brener", "Photo from GL East courts, Seattle - NY Times and Alan Brener",
-      "Photo from GL East courts, Seattle - NY Times and Alan Brener", "Photo from GL East courts, Seattle - NY Times and Alan Brener", 
-      "Photo from GL East courts, Seattle - NY Times and Alan Brener", "Photo from GL East courts, Seattle - NY Times and Alan Brener", 
-      "Photo from GL East courts, Seattle - NY Times and Alan Brener", "Photo from GL East courts, Seattle - NY Times and Alan Brener", 
-      "Photo from GL East courts, Seattle - NY Times and Alan Brener", "Photo from GL East courts, Seattle - NY Times and Alan Brener", 
-      "Photo from GL East courts, Seattle - NY Times and Alan Brener", "Photo from GL East courts, Seattle - NY Times and Alan Brener", 
-      "Photo from GL East courts, Seattle - NY Times and Alan Brener", "Photo from GL East courts, Seattle - NY Times and Alan Brener", 
-      "Photo from GL East courts, Seattle - NY Times and Alan Brener", "Photo from GL East courts, Seattle - NY Times and Alan Brener", 
-      "Photo from GL East courts, Seattle - NY Times and Alan Brener", "Photo from GL East courts, Seattle - NY Times and Alan Brener", 
-      "Photo from GL East courts, Seattle - NY Times and Alan Brener", "Photo from GL East courts, Seattle - NY Times and Alan Brener", 
-      "Photo from GL East courts, Seattle - NY Times and Alan Brener", "Photo from GL East courts, Seattle - NY Times and Alan Brener", 
-      "Photo from GL East courts, Seattle - NY Times and Alan Brener", "Photo from GL East courts, Seattle - NY Times and Alan Brener", 
-      "Photo from GL East courts, Seattle - NY Times and Alan Brener", "Photo from GL East courts, Seattle - NY Times and Alan Brener", 
-      "Photo from GL East courts, Seattle - NY Times and Alan Brener", "Photo from GL East courts, Seattle - NY Times and Alan Brener", 
-      "Photo from GL East courts, Seattle - NY Times and Alan Brener", "Photo from GL East courts, Seattle - NY Times and Alan Brener"],
+      ["Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022",
+      "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", 
+      "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", 
+      "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", 
+      "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", 
+      "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", 
+      "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", 
+      "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", 
+      "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", 
+      "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", 
+      "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", 
+      "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", 
+      "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", 
+      "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", 
+      "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022"],
     captions: 
       ["", "", "", "",
       "", "", "", "",
@@ -47,7 +47,7 @@ let albumData = {
       '/images/nyt/IMG_0048.jpg', '/images/nyt/IMG_0049.jpg', '/images/nyt/IMG_0050.jpg', '/images/nyt/IMG_0051.jpg',
       '/images/nyt/IMG_0052.jpg', '/images/nyt/IMG_0053.jpg', '/images/nyt/IMG_0054.jpg', '/images/nyt/IMG_0055.jpg',
       '/images/nyt/IMG_0056.jpg', '/images/nyt/IMG_0057.jpg'],
-      albumCaption: "Credit goes to New York Times and Alan Brener for these photos."
+      albumCaption: "Credit goes to New York Times, and Alan Brener for these photos."
   }
 }
 
