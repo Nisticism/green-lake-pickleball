@@ -29,7 +29,7 @@ let albumData = {
       "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", 
       "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", 
       "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022", "Photo from GL East courts, Seattle - Alan Brener, New York Times, 2022",
-    "test alt", "test alt 2"],
+    "test alt", "test alt x"],
     captions: 
       ["", "", "", "",
       "", "", "", "",
@@ -38,7 +38,7 @@ let albumData = {
       "", "", "", "",
       "", "", "", "",
       "", "", "", "",
-      "", "", "test caption", "test caption 2"], 
+      "", "", "test caption", "test caption x"], 
     photos: 
       ['/images/nyt/IMG_0028.jpg', '/images/nyt/IMG_0029.jpg', '/images/nyt/IMG_0030.jpg', '/images/nyt/IMG_0031.jpg',
       '/images/nyt/IMG_0032.jpg', '/images/nyt/IMG_0033.jpg', '/images/nyt/IMG_0034.jpg', '/images/nyt/IMG_0035.jpg',
@@ -47,7 +47,7 @@ let albumData = {
       '/images/nyt/IMG_0044.jpg', '/images/nyt/IMG_0045.jpg', '/images/nyt/IMG_0046.jpg', '/images/nyt/IMG_0047.jpg',
       '/images/nyt/IMG_0048.jpg', '/images/nyt/IMG_0049.jpg', '/images/nyt/IMG_0050.jpg', '/images/nyt/IMG_0051.jpg',
       '/images/nyt/IMG_0052.jpg', '/images/nyt/IMG_0053.jpg', '/images/nyt/IMG_0054.jpg', '/images/nyt/IMG_0055.jpg',
-      '/images/nyt/IMG_0056.jpg', '/images/nyt/IMG_0057.jpg', '/images/nyt/test-photo.jpg', '/images/nyt/test-photo2.jpg'],
+      '/images/nyt/IMG_0056.jpg', '/images/nyt/IMG_0057.jpg', '/images/nyt/test-photo.jpg', '/images/nyt/test-photox.jpg'],
       albumCaption: "Credit goes to New York Times, and Alan Brener for these photos."
   }
 }
