@@ -7,7 +7,7 @@ function Photos() {
     misc: 
     {title: "Miscellaneous", url: "/photos/misc", src: "images/misc/paddle_stacks.png"},
     nyt: 
-    {title: "New York Times Photos (2022)", url: "/photos/nyt", src: "images/nyt/img_0028.JPG"}
+    {title: "New York Times Photos (2022)", url: "/photos/nyt", src: "images/nyt/IMG_0028.JPG"}
   }
   return (
     <div className="text-align photos-wrapper">
