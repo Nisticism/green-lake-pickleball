@@ -69,7 +69,7 @@ class Home extends Component {
       <hr className="home-hr" />
       <div className="home-section text-align">
         <h2 className="text-align">Competition</h2>
-        <span className="home-text">Some of the more competitive players here compete seek out nearby tournaments.  <a href="https://www.pickleballtournaments.com/pbt_tlisting.pl?when=F&selstate=WA&selsanctioning=&selnettype=&openregonly=false&ssipaFilter=false&aauFilter=false" 
+        <span className="home-text">Some of the more competitive players here seek out nearby tournaments.  <a href="https://www.pickleballtournaments.com/pbt_tlisting.pl?when=F&selstate=WA&selsanctioning=&selnettype=&openregonly=false&ssipaFilter=false&aauFilter=false" 
         target="_blank" rel="noreferrer">Here</a> is a link to future tournaments in Washington.</span>
       </div>
     </div>
