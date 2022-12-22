@@ -12,7 +12,7 @@ let albumData = {
       ['/images/misc/paddle_stacks.png', 
       '/images/misc/cloudy_green_lake.jpg']},
   albumDataNYT: {
-    title: "New York Times & Alan Berner",
+    title: "Green Lake Pickleball, 2022",
     alts: 
       ["Alan Berner Photo, 2022", "Alan Berner Photo, 2022", "Alan Berner Photo, 2022", "Alan Berner Photo, 2022", 
       "New York Times Photo from Green Lake, 2022", "New York Times Photo from Green Lake, 2022",
