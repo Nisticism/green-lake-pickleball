@@ -1,7 +1,8 @@
 .courts {
   width: 80%;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .courts-paragraph {
@@ -9,4 +10,19 @@
   font-size: 15px;
   line-height: 24px;
   font-weight: 500;
+}
+
+.schedule {
+  max-width: 550px;
+}
+
+.schedule-container {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 550px) {
+  .schedule {
+    max-width: 400px;
+  }
 }
