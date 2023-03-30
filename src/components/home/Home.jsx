@@ -70,7 +70,11 @@ class Home extends Component {
           </span>
           <span className="home-text text-align">
             Join GLP's email list{' '}
-            <a href="https://groups.google.com/g/green-lake-pickleball" target="_blank" rel="noreferrer">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSciQ7da1QXeJlkST6LtHWL_58kwBOsn-9llTsDyM4Rsrjt0jg/viewform"
+              target="_blank"
+              rel="noreferrer"
+            >
               here
             </a>
           </span>
