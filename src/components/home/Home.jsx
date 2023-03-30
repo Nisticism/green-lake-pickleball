@@ -13,7 +13,7 @@ class Home extends Component {
     return (
       <div>
         <Header />
-        <h2 className="text-align home-section-heading">Welcome to Green Lake Pickleball.</h2>
+        <h2 className="text-align home-section-heading">Welcome to Green Lake Pickleball</h2>
         <div className="home-section">
           <span className="home-text">
             Green Lake Pickleball (GLP) is the name we've chosen for the informal group of players who gather for
